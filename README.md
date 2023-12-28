@@ -10,4 +10,9 @@ Daily progress
 - 27 Dec 2023
   - Print all divisors
   - Is Prime or not
-
+- 28 Dec 2023
+  - Understand recursion by print somet…
+  - Print name N times using recursion
+  - Print 1 to N using recursion
+  - Print N to 1 using recursion
+  - Sum of first N numbers
