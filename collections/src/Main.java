@@ -1,10 +1,8 @@
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> aList = new ArrayList<>();
+        List<Integer> aList = new ArrayList<>(new HashSet<>() {{ add(1); add(2); }});
 
         aList.add(1);
         aList.add(2);
@@ -13,6 +11,22 @@ public class Main {
         aList.set(0,-1);
 
         System.out.println(aList);
+
+        playWithLinkedList();
+    }
+
+    private static void playWithLinkedList(){
+        LinkedList<Integer> ll1 = new LinkedList<>();
+
+        ll1.add(1);
+        ll1.add(2);
+        ll1.add(3);
+        System.out.println("Print from linkedlist ");
+        ListIterator<Integer> listIterator = ll1.listIterator();
+
+        while(listIterator.hasNext()){
+            System.out.println("next " + listIterator.next());
+        }
     }
 
     public void playingWithGenericList() {

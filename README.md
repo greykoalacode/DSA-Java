@@ -20,3 +20,5 @@ Daily progress
   - Reverse an array
   - is Palindrome
   - fibonacci number
+- 29 Dec 2023
+  - learning Java collections (Stack, queue)
