@@ -22,3 +22,8 @@ Daily progress
   - fibonacci number
 - 29 Dec 2023
   - learning Java collections (Stack, queue)
+- 30 Dec 2023
+  - basic hashing
+  - frequency of a range
+  - also, missed my streak in codingstudio as i didn't solve one day :(
+  
