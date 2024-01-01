@@ -30,4 +30,5 @@ Daily progress
   - Started late and wrote incomplete solution
 - 01 Jan 2024
   - Find the highest/lowest frequency element
-  - 
+  - selection sort
+  - Bubble Sort
