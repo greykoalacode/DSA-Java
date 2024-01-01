@@ -3,7 +3,6 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
         System.out.println(Arrays.toString(getFrequencies(new int[]{1, 1, 3, 1, 2})));
     }
 
@@ -25,22 +24,23 @@ public class Main {
             freq.put(i, currentValue);
         }
 
-        int[] minmax =  {v[0], v[0]};
+        int[] minmax =  {Integer.MAX_VALUE, Integer.MAX_VALUE};
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
         for(int i: freq.keySet()){
-            if(max <= freq.get(i)){
-                if(max == freq.get(i)){
-                    minmax[0] = Math.min(minmax[0], i);
-                }
-                max = freq.get(i);
+            int currentValue = freq.get(i);
+            if(max == currentValue){
+                minmax[0] = Math.min(minmax[0], i);
+            }
+            if(max < currentValue){
+                max = currentValue;
                 minmax[0] = i;
             }
-            else if(min >= freq.get(i)){
-                if(freq.get(minmax[1]) == freq.get(i)){
-                    minmax[1] = Math.min(minmax[1], i);
-                }
-                min = freq.get(i);
+            if(min == currentValue){
+                minmax[1] = Math.min(minmax[1], i);
+            }
+            if(min > currentValue){
+                min = currentValue;
                 minmax[1] = i;
             }
         }

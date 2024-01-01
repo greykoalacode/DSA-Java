@@ -26,4 +26,8 @@ Daily progress
   - basic hashing
   - frequency of a range
   - also, missed my streak in codingstudio as i didn't solve one day :(
-  
+- 31 Dec 2023
+  - Started late and wrote incomplete solution
+- 01 Jan 2024
+  - Find the highest/lowest frequency element
+  - 
