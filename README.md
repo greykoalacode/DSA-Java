@@ -32,7 +32,10 @@ Daily progress
   - Find the highest/lowest frequency element
   - selection sort
   - Bubble Sort
+  - `Trying GCD of strings - couldn't solve yet`
 - 02 Jan 2024
   - Started with Easy array sums as I was short on time
   - Largest element in array (O(n) approach )
-  - second largest - trying rn
+  - `second largest - trying rn`
+- 03 Jan 2024
+  - second Min & Max elements in an array (O(n) approach)
