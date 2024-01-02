@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/basicRecursion/basicRecursion.iml" filepath="$PROJECT_DIR$/basicRecursion/basicRecursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/basicSorting/basicSorting.iml" filepath="$PROJECT_DIR$/basicSorting/basicSorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyArrays/easyArrays.iml" filepath="$PROJECT_DIR$/easyArrays/easyArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcodePractice/leetcodePractice.iml" filepath="$PROJECT_DIR$/leetcodePractice/leetcodePractice.iml" />
     </modules>
   </component>

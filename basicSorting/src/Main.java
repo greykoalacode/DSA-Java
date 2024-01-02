@@ -3,10 +3,23 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
-        System.out.println(Arrays.toString(selectionSort(new int[]{3, 2, 1})));
-        System.out.println(Arrays.toString(bubbleSort(new int[]{
-                41,467,334,500,169,724,478,358,962,464 })));
+        int[] inputArr = {41, 467, 334, 500, 169, 724, 478, 358, 962, 464};
+        System.out.println(Arrays.toString(inputArr));
+        System.out.println(Arrays.toString(insertionSort(inputArr)));
+    }
+
+    public static int[] insertionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 1; i < n; i++) {
+            int current = arr[i];
+            int prev = i - 1;
+            while (prev >= 0 && arr[prev] > current) {
+                arr[prev + 1] = arr[prev];
+                prev = prev - 1;
+            }
+            arr[prev + 1] = current;
+        }
+        return arr;
     }
 
     public static int[] selectionSort(int[] arr) {
@@ -29,17 +42,17 @@ public class Main {
 
     public static int[] bubbleSort(int[] arr) {
         int n = arr.length;
-        for(int i = 0; i < n-1; i++){
+        for (int i = 0; i < n - 1; i++) {
             boolean swapped = false;
-            for(int j = 0; j < n-i-1; j++){
-                if(arr[j] > arr[j+1]){
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                     swapped = true;
                 }
             }
-            if(!swapped) break;
+            if (!swapped) break;
         }
         return arr;
     }
