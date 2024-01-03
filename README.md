@@ -39,3 +39,5 @@ Daily progress
   - `second largest - trying rn`
 - 03 Jan 2024
   - second Min & Max elements in an array (O(n) approach)
+  - is array sorted
+  - remove duplicates from sorted array
