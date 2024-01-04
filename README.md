@@ -83,3 +83,9 @@ Daily progress
 - remove duplicates from sorted array
 
 </details>
+<details>
+<summary>04 Jan 2024 <b>pending</b></summary>
+
+- Pair sum (easy array sum)
+
+</details>
