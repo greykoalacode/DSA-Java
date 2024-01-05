@@ -89,3 +89,10 @@ Daily progress
 - Pair sum (easy array sum)
 
 </details>
+<details>
+<summary>05 Jan 2024 <b>pending</b></summary>
+
+- Pair sum (easy array sum)
+  - Solved by naive method. 
+
+</details>
