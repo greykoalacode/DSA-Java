@@ -47,4 +47,33 @@ public class PairSum {
         return pairs;
 
     }
+
+    public static List<int[]> pairSumAlt2(int[] arr, int s) {
+        List<int[]> pairs = new ArrayList<>();
+        Map<Integer, Integer> freq = new HashMap<>();
+        for(int i: arr){
+            if(freq.containsKey(i)){
+                freq.put(i, freq.get(i)+1);
+            } else {
+                freq.put(i, 1);
+            }
+        }
+        for(int i:arr){
+            int needed = Math.abs(s-i);
+            int[] pair = new int[2];
+            if(freq.containsKey(needed)){
+                if (needed == i) {
+                    if (freq.get(i) == 1) break;
+                    freq.put(i, freq.get(i) - 1);
+                    pair[0] = Math.min(i, needed);
+                    pair[1] = Math.max(i, needed);
+                } else {
+
+                }
+            } else {
+                break;
+            }
+        }
+        return pairs;
+    }
 }
