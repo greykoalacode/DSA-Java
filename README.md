@@ -96,3 +96,9 @@ Daily progress
   - Solved by naive method. 
 
 </details>
+<details>
+<summary>09 Jan 2024</summary>
+
+- Revise the previous progress
+
+</details>
