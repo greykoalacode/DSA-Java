@@ -102,3 +102,10 @@ Daily progress
 - Revise the previous progress
 
 </details>
+<details>
+<summary>10 Jan 2024</summary>
+
+- Sort 0,1,2
+- Find duplicate
+
+</details>
