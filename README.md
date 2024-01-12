@@ -115,3 +115,9 @@ Daily progress
 - Find Unique
 
 </details>
+<details>
+<summary>12 Jan 2024 <b>pending</b></summary>
+
+- Hashmap implementation*
+
+</details>
