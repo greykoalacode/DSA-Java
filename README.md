@@ -121,3 +121,10 @@ Daily progress
 - Hashmap implementation*
 
 </details>
+<details>
+<summary>13 Jan 2024 <b>pending</b></summary>
+
+- String palindrome
+- First and last position of element in sorted array
+
+</details>
