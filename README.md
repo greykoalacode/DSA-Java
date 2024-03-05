@@ -136,3 +136,15 @@ Daily progress
 - [Leetcode: Concatenate Arrays](https://leetcode.com/problems/concatenation-of-array)
 - Learning Collections again :)
 </details>
+<details>
+<summary>06 March 2024</summary>
+
+- Practiced Basics of
+  - Stacks
+  - Queue
+  - LinkedList
+  - Deque
+  - PriorityQueue
+  - Comparators
+  - Comparable
+</details>

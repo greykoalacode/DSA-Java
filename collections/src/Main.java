@@ -12,7 +12,9 @@ public class Main {
 
         System.out.println(aList);
 
-        playWithLinkedList();
+//        playingWithGenericList();
+
+//        playWithLinkedList();
     }
 
     private static void playWithLinkedList(){
@@ -29,7 +31,7 @@ public class Main {
         }
     }
 
-    public void playingWithGenericList() {
+    public static void playingWithGenericList() {
         GenericList<Integer> list = new GenericList<>();
         list.add(1);
         list.add(2);
