@@ -147,4 +147,5 @@ Daily progress
   - PriorityQueue
   - Comparators
   - Comparable
+- Solved in naive way: [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 </details>
