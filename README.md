@@ -152,5 +152,7 @@ Daily progress
 <details>
 <summary>07 March 2024</summary>
 
-- Solving: [Number of Good pairs](https://leetcode.com/problems/number-of-good-pairs/)
+- Solving: 
+  - [Number of Good pairs](https://leetcode.com/problems/number-of-good-pairs/)
+  - [Final Value after Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 </details>

@@ -8,9 +8,22 @@ public class GoodPairs {
         int[] nums = {1, 2, 3, 1, 1, 3};
         int[] nums1 = {1, 1, 1, 1};
         int[] nums2 = {1, 2, 3};
-        System.out.println(numIdenticalPairs(nums));
-        System.out.println(numIdenticalPairs(nums1));
-        System.out.println(numIdenticalPairs(nums2));
+        System.out.println(numIdenticalPairsBetter(nums));
+        System.out.println(numIdenticalPairsBetter(nums1));
+        System.out.println(numIdenticalPairsBetter(nums2));
+    }
+
+    // Better Solution
+    public static int numIdenticalPairsBetter(int[] nums) {
+        int[] freq = new int[100];
+        for(int i: nums){
+            freq[i-1]++;
+        }
+        int numOfPairs = 0;
+        for(int i: freq){
+            numOfPairs += ((i - 1) * (i)) / 2;
+        }
+        return numOfPairs;
     }
 
     public static int numIdenticalPairs(int[] nums) {
