@@ -149,3 +149,8 @@ Daily progress
   - Comparable
 - Solved in naive way: [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 </details>
+<details>
+<summary>07 March 2024</summary>
+
+- Solving: [Number of Good pairs](https://leetcode.com/problems/number-of-good-pairs/)
+</details>
