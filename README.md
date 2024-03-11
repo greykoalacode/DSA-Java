@@ -165,5 +165,8 @@ Daily progress
 <details>
 <summary>11 March 2024</summary>
 
-- Solving [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)
+- Solved
+  - [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)
+  - [Custom Sort String](https://leetcode.com/problems/custom-sort-string/)
+
 </details>
