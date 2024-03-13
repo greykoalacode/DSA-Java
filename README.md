@@ -175,3 +175,9 @@ Daily progress
 
 - Revision
 </details>
+<details>
+<summary>13 March 2024</summary>
+
+- Solved
+  - [Pivot Number](https://leetcode.com/problems/find-the-pivot-integer)
+</details>
