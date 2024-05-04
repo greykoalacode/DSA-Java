@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class StudentScore implements Comparable<StudentScore> {
     private int maths;
     private int physics;
@@ -26,5 +28,18 @@ public class StudentScore implements Comparable<StudentScore> {
     @Override
     public int compareTo(StudentScore o) {
         return o.maths - this.maths;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        StudentScore that = (StudentScore) o;
+        return maths == that.maths && physics == that.physics;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(maths, physics);
     }
 }
