@@ -5,9 +5,9 @@ public class Main {
 
         int[] inputArr = {41, 467, 334, 500, 169, 724, 478, 358, 962, 464};
         System.out.println(Arrays.toString(inputArr));
-        System.out.println(Arrays.toString(insertionSort(inputArr)));
+//        System.out.println(Arrays.toString(insertionSort(inputArr)));
 //        System.out.println(Arrays.toString(selectionSortImpl(inputArr)));
-//        System.out.println(Arrays.toString(bubbleSortImpl(inputArr)));
+        System.out.println(Arrays.toString(bubbleSortImpl(inputArr)));
     }
 
     public static int[] insertionSort(int[] arr) {
@@ -20,6 +20,7 @@ public class Main {
                 prev = prev - 1;
             }
             arr[prev + 1] = current;
+            System.out.println(i+" "+Arrays.toString(arr));
         }
         return arr;
     }
