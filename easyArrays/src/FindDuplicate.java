@@ -19,7 +19,6 @@ public class FindDuplicate {
                 freqMap.put(arr.get(i), 1);
             }
             else {
-
                 return arr.get(i);
             }
         }

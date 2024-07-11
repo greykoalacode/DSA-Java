@@ -13,22 +13,22 @@ public class ArrayFromPermutation {
 
     public static String buildArray(int[] nums) {
         // naive solution
-        int[] updatedArray = new int[nums.length];
-        for(int i=0; i < nums.length; i++){
-            updatedArray[i] = nums[nums[i]];
+//        int[] updatedArray = new int[nums.length];
+//        for(int i=0; i < nums.length; i++){
+//            updatedArray[i] = nums[nums[i]];
+//        }
+        for(int i = 0;  i < nums.length; i++){
+            if(i != nums[i]){
+                int temp = nums[i];
+                nums[i] = nums[temp];
+                nums[temp] = temp;
+            }
         }
-//        for(int i = 0;  i < nums.length; i++){
-//            if(i != nums[i]){
-//                int temp = nums[i];
-//                nums[i] = nums[temp];
-//                nums[temp] = temp;
-//            }
-//        }
-//        int lastNum = nums[nums.length-1];
-//        for(int i = nums.length-1; i > 0; i--){
-//            nums[i] = nums[i-1];
-//        }
-//        nums[0] = lastNum;
+        int lastNum = nums[nums.length-1];
+        for(int i = nums.length-1; i > 0; i--){
+            nums[i] = nums[i-1];
+        }
+        nums[0] = lastNum;
         return Arrays.toString(nums);
     }
 }

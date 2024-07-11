@@ -1,6 +1,6 @@
 public class isPalindrome {
     public static void main(String[] args) {
-        System.out.println(isPalindrome("abbca"));
+        System.out.println(isPalindrome("abbba"));
     }
 
     private static boolean isPalindrome(String str) {
