@@ -11,15 +11,10 @@ public class CountSubarraysWithSum {
         preSumMap.put(0,1);
         for (int j = 0; j < nums.length; j++) {
             sum += nums[j];
-//            if(sum == k){
-//                count++;
-//            }
             if (preSumMap.containsKey(sum - k)) {
                 count += preSumMap.get(sum-k);
             }
-//            if (!preSumMap.containsKey(sum)) {
-                preSumMap.put(sum, preSumMap.getOrDefault(sum, 0)+1);
-//            }
+            preSumMap.put(sum, preSumMap.getOrDefault(sum, 0)+1);
             System.out.println("keys: "+preSumMap.keySet());
             System.out.println("values: "+preSumMap.values());
         }
