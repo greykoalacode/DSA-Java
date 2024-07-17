@@ -9,6 +9,7 @@ public class FurthestBuilding {
 
             }
         }
+        return -1;
     }
 
     public static void main(String[] args) {
