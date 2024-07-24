@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class MaxSubarraySum {
     public static void main(String[] args) {
@@ -8,6 +9,18 @@ public class MaxSubarraySum {
         int subArraySum = findMaxSubarraySum(nums);
         System.out.println(subArraySum);
         System.out.println(findMaxSubarraySumPrefix(nums));
+    }
+
+    public int pairWithMaxSum(List<Integer> arr) {
+        // Your code goes here
+        int sum = arr.get(0);
+        int ans = Integer.MIN_VALUE;
+        for(int i=1; i<arr.size(); i++){
+            sum += arr.get(i);
+            ans = Math.max(ans, sum);
+            sum = arr.get(i);
+        }
+        return ans;
     }
 
     public static int findMaxSubarraySumPrefix(int[] nums){
@@ -43,9 +56,7 @@ public class MaxSubarraySum {
                 sum = 0;
                 range[0] = i+1;
             }
-            System.out.println("sum is " + sum);
         }
-        System.out.println(range[0]+" "+range[1]);
         return max;
     }
 }
