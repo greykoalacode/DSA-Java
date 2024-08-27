@@ -1,4 +1,4 @@
-package org.example;
+package main.java;
 
 import java.util.Arrays;
 
@@ -78,8 +78,8 @@ public class RearrangeArray {
                 {-1, 1}
         };
         for (int[] nums : inputs) {
-//            System.out.println(Arrays.toString(rearrangeArray(nums)));
-            System.out.println(Arrays.toString(rearrangeArrayWithSpace(nums)));
+            System.out.println(Arrays.toString(rearrangeArray(nums)));
+//            System.out.println(Arrays.toString(rearrangeArrayWithSpace(nums)));
         }
     }
 }

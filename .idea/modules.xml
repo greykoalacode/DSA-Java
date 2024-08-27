@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyArrays/easyArrays.iml" filepath="$PROJECT_DIR$/easyArrays/easyArrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcodePractice/leetcodePractice.iml" filepath="$PROJECT_DIR$/leetcodePractice/leetcodePractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediumArrays/mediumArrays.iml" filepath="$PROJECT_DIR$/mediumArrays/mediumArrays.iml" />
     </modules>
   </component>
 </project>

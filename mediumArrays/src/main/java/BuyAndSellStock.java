@@ -1,4 +1,4 @@
-package org.example;
+package main.java;
 
 public class BuyAndSellStock {
 
